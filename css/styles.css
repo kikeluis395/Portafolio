@@ -229,8 +229,9 @@ h2 {
   font-size: 16px;
   margin-bottom: 10px;
 }
-.proyect-url {
-  max-width: 245px;
+.proyect-url a{
+  text-align: center;
+  width: 245px;
   font-size: 14px;
   margin-bottom: 10px;
 }
