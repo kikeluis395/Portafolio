@@ -1,0 +1,236 @@
+* {
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  
+}
+body{
+  width: 100vw;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000, #434343);
+  background: linear-gradient(to right, #000000, #434343);
+  overflow-x: hidden;
+}
+header{
+  width: 100vw;
+}
+.header-container {
+  width: 80%;
+  margin: auto;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container .logo a{
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  border: 1px solid white;
+  padding:1rem;
+  border-radius: 10px;
+}
+.header-container .logo a:hover{
+  background-color:  rgb(114, 246, 90);
+  color:black;
+  transition: 0.5s;
+}
+.header-container .main-nav li{
+  display: inline-block;
+  margin-left:20px;
+}
+.header-container .main-nav a {
+  color:white;
+  text-decoration: none;
+  font-size: 18px;
+  padding:10px;
+}
+.header-container .main-nav a:hover {
+  background-color: rgb(113, 246, 90);
+  color: black;
+  transition: 0.5s;
+}
+.main {
+  width: 80%;
+  margin: auto;
+  margin-top: 3rem ;
+  display: flex;
+  box-shadow: 0 3px 16px rgba(113, 246, 90,0.3),0 3px 16px rgba(113, 246, 90,0.3);
+  border-radius: 10px;
+  justify-content: space-between;
+  
+  padding: 2rem;
+}
+.main-content{
+  width: 70%;
+  max-width: 800px;
+}
+.main .main-content h1{
+  margin-top: 20px;
+  color:white;
+  font-size:45px;
+  padding-left: 80px;
+}
+.main .main-content .redes {
+  width: 70%;
+  color: white;
+  font-size: 24px;
+  padding: 20px 0;
+}
+.main .main-content .container-redes {
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.icons {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.icons .icon {
+  color: rgb(113, 246, 90);
+  padding:0 20px;
+ 
+}
+.icons a{
+  text-decoration: none;
+}
+.main .word {
+  color: rgb(113, 246, 90);
+}
+.main figure{
+  width: 30%;
+  max-width: 300px;
+  min-width: 200px;
+  margin-left: 50px;
+}
+.main img{
+  width: 100%;
+  border-radius: 10px;
+}
+.abilities {
+  width: 80%;
+  margin: auto;
+}
+h2 {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  color:white;
+  font-size: 50px;
+}
+.abilities img {
+  width:150px;
+}
+.abilities .abilities-img {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 30px;
+  border-radius: 10px;
+}
+.abilities .abilities-img figure{
+  padding: 10px;
+  border-radius: 10px;
+}
+.abilities .abilities-img figure:hover{
+  background-color: rgb(113, 246, 90);
+  color: black;
+  transition: 0.5s;
+}
+.proyect-container {
+  width: 80%;
+  margin: auto;
+  color:white;
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.proyect-container .proyect-all {
+  background-color:  rgb(0, 0, 0,0.1);
+  text-align: center;
+  padding:20px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 3px 16px rgba(113, 246, 90,0.3),0 3px 16px rgba(113, 246, 90,0.3);
+}
+.proyect-container .proyect-content {
+  max-width: 300px;
+}
+.proyect-title {
+  font-size: 30px;
+  margin: auto;
+  margin-bottom: 20px;
+  color:white;
+}
+.proyect-cursos {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.proyect-date {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.proyect-url {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.proyect-url a{
+  color:white;
+}
+.proyect-details {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.proyect-container img {
+  width: 100%;
+  transition: 0.5s;
+}
+.proyect-container figure{
+  padding-top: 10px;
+  width: 150px;
+}
+.certificados {
+  width:80%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.certificados .certificado{
+  box-shadow: 0 3px 16px rgba(113, 246, 90,0.3),0 3px 16px rgba(113, 246, 90,0.3);
+  margin:30px;
+  border-radius: 10px;
+
+}
+.certificado p {
+  font-size: 20px;
+  color:white;
+  padding: 5px;
+  margin-top:10px;
+}
+.certificado figure {
+  width: 300px;
+  margin: 20px;
+}
+.certificado img {
+  width: 100%;
+  border-radius: 10px ;
+}
+.certificado .boton{
+  padding: 5px;
+  margin:auto;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  background-color: rgb(113, 246, 90);
+  width: max-content;
+}
+.certificado a{
+  text-decoration: none;
+  color: black;
+}
